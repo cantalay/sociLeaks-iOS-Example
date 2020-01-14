@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		273404E3D330245BB131AB5D /* Pods_sociLeaks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C8CF9B5F7BC371603354F0 /* Pods_sociLeaks.framework */; };
 		6931084F23CE4D5B00B8BA41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6931084E23CE4D5B00B8BA41 /* AppDelegate.swift */; };
 		6931085123CE4D5B00B8BA41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6931085023CE4D5B00B8BA41 /* SceneDelegate.swift */; };
 		6931085323CE4D5C00B8BA41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6931085223CE4D5B00B8BA41 /* ViewController.swift */; };
 		6931085623CE4D5C00B8BA41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6931085423CE4D5C00B8BA41 /* Main.storyboard */; };
 		6931085823CE4D6D00B8BA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6931085723CE4D6D00B8BA41 /* Assets.xcassets */; };
 		6931085B23CE4D6D00B8BA41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6931085923CE4D6D00B8BA41 /* LaunchScreen.storyboard */; };
+		6931086323CE535000B8BA41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6931086223CE535000B8BA41 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		084F7745B2EE24937CC6D152 /* Pods-sociLeaks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sociLeaks.release.xcconfig"; path = "Target Support Files/Pods-sociLeaks/Pods-sociLeaks.release.xcconfig"; sourceTree = "<group>"; };
+		4020521D0068589614D4A900 /* Pods-sociLeaks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sociLeaks.debug.xcconfig"; path = "Target Support Files/Pods-sociLeaks/Pods-sociLeaks.debug.xcconfig"; sourceTree = "<group>"; };
 		6931084B23CE4D5B00B8BA41 /* sociLeaks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sociLeaks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6931084E23CE4D5B00B8BA41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6931085023CE4D5B00B8BA41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		6931085723CE4D6D00B8BA41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6931085A23CE4D6D00B8BA41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6931085C23CE4D6D00B8BA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6931086223CE535000B8BA41 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		77C8CF9B5F7BC371603354F0 /* Pods_sociLeaks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sociLeaks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273404E3D330245BB131AB5D /* Pods_sociLeaks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				6931084D23CE4D5B00B8BA41 /* sociLeaks */,
 				6931084C23CE4D5B00B8BA41 /* Products */,
+				7AC65C2B9966ECFBECDA0183 /* Pods */,
+				9726271A79603F1B412655E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +72,26 @@
 				6931085723CE4D6D00B8BA41 /* Assets.xcassets */,
 				6931085923CE4D6D00B8BA41 /* LaunchScreen.storyboard */,
 				6931085C23CE4D6D00B8BA41 /* Info.plist */,
+				6931086223CE535000B8BA41 /* GoogleService-Info.plist */,
 			);
 			path = sociLeaks;
+			sourceTree = "<group>";
+		};
+		7AC65C2B9966ECFBECDA0183 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4020521D0068589614D4A900 /* Pods-sociLeaks.debug.xcconfig */,
+				084F7745B2EE24937CC6D152 /* Pods-sociLeaks.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9726271A79603F1B412655E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C8CF9B5F7BC371603354F0 /* Pods_sociLeaks.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6931085F23CE4D6D00B8BA41 /* Build configuration list for PBXNativeTarget "sociLeaks" */;
 			buildPhases = (
+				2A7637AAF2EC8A2E5C7E3F40 /* [CP] Check Pods Manifest.lock */,
 				6931084723CE4D5B00B8BA41 /* Sources */,
 				6931084823CE4D5B00B8BA41 /* Frameworks */,
 				6931084923CE4D5B00B8BA41 /* Resources */,
+				BCEFA526D5D6BB69F209E9FE /* [CP] Embed Pods Frameworks */,
+				CDF959DF924E7A030261CB0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				6931085B23CE4D6D00B8BA41 /* LaunchScreen.storyboard in Resources */,
+				6931086323CE535000B8BA41 /* GoogleService-Info.plist in Resources */,
 				6931085823CE4D6D00B8BA41 /* Assets.xcassets in Resources */,
 				6931085623CE4D5C00B8BA41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A7637AAF2EC8A2E5C7E3F40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sociLeaks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCEFA526D5D6BB69F209E9FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sociLeaks/Pods-sociLeaks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sociLeaks/Pods-sociLeaks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sociLeaks/Pods-sociLeaks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF959DF924E7A030261CB0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sociLeaks/Pods-sociLeaks-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sociLeaks/Pods-sociLeaks-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sociLeaks/Pods-sociLeaks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6931084723CE4D5B00B8BA41 /* Sources */ = {
@@ -282,6 +372,7 @@
 		};
 		6931086023CE4D6D00B8BA41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4020521D0068589614D4A900 /* Pods-sociLeaks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +391,7 @@
 		};
 		6931086123CE4D6D00B8BA41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084F7745B2EE24937CC6D152 /* Pods-sociLeaks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

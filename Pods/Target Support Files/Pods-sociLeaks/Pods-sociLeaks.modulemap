@@ -1,0 +1,6 @@
+framework module Pods_sociLeaks {
+  umbrella header "Pods-sociLeaks-umbrella.h"
+
+  export *
+  module * { export * }
+}
